@@ -41,20 +41,15 @@ PRODUCT_COPY_FILES += \
  vendor/lenovo/a3/proprietary/vendor/lib/libpvrANDROID_WSEGL.so:system/vendor/lib/libpvrANDROID_WSEGL.so \
  vendor/lenovo/a3/proprietary/vendor/lib/libBLPP.so:system/vendor/lib/libBLPP.so \
  vendor/lenovo/a3/proprietary/vendor/lib/hw/gralloc.mt8389.so:system/vendor/lib/hw/gralloc.mt8389.so \
- vendor/lenovo/a3/proprietary/lib/hw/libaudio.r_submix.default.so:system/lib/hw/libaudio.r_submix.default.so \
  vendor/lenovo/a3/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
- vendor/lenovo/a3/proprietary/lib/hw/libaudio.usb.default.so:system/lib/hw/libaudio.usb.default.so \
  vendor/lenovo/a3/proprietary/lib/hw/lights.default.so:system/lib/hw/lights.default.so \
  vendor/lenovo/a3/proprietary/lib/hw/power.default.so:system/lib/hw/power.default.so \
- vendor/lenovo/a3/proprietary/lib/hw/audio.primary.default.so:system/lib/hw/audio.primary.default.so \
- vendor/lenovo/a3/proprietary/lib/hw/audio_policy.default.so:system/lib/hw/audio_policy.default.so \
  vendor/lenovo/a3/proprietary/lib/hw/local_time.default.so:system/lib/hw/local_time.default.so \
  vendor/lenovo/a3/proprietary/lib/hw/camera.default.so:system/lib/hw/camera.default.so \
  vendor/lenovo/a3/proprietary/lib/hw/sensors.default.so:system/lib/hw/sensors.default.so \
  vendor/lenovo/a3/proprietary/lib/hw/gralloc.default.so:system/lib/hw/gralloc.default.so \
  vendor/lenovo/a3/proprietary/lib/hw/keystore.default.so:system/lib/hw/keystore.default.so \
  vendor/lenovo/a3/proprietary/lib/libkeystore_client.so:system/lib/libkeystore_client.so \
- vendor/lenovo/a3/proprietary/lib/hw/audio_policy.stub.so:system/lib/hw/audio_policy.stub.so \
  vendor/lenovo/a3/proprietary/lib/libm4u.so:system/lib/libm4u.so \
  vendor/lenovo/a3/proprietary/lib/libdpframework.so:system/lib/libdpframework.so \
  vendor/lenovo/a3/proprietary/lib/libdpframework_os.so:system/lib/libdpframework_os.so \
@@ -63,7 +58,6 @@ PRODUCT_COPY_FILES += \
  vendor/lenovo/a3/proprietary/lib/libaudiocustparam.so:system/lib/libaudiocustparam.so \
  vendor/lenovo/a3/proprietary/lib/libaed.so:system/lib/libaed.so \
  vendor/lenovo/a3/proprietary/lib/libmtk_drvb.so:system/lib/libmtk_drvb.so \
- vendor/lenovo/a3/proprietary/lib/libaudio.primary.default.so:system/lib/libaudio.primary.default.so \
  vendor/lenovo/a3/proprietary/lib/libblisrc.so:system/lib/libblisrc.so \
  vendor/lenovo/a3/proprietary/lib/libspeech_enh_lib.so:system/lib/libspeech_enh_lib.so \
  vendor/lenovo/a3/proprietary/lib/libaudiosetting.so:system/lib/libaudiosetting.so \
@@ -101,6 +95,8 @@ PRODUCT_COPY_FILES += \
  vendor/lenovo/a3/proprietary/bin/thermal:system/bin/thermal \
  vendor/lenovo/a3/proprietary/bin/thermal_manager:system/bin/thermal_manager \
  vendor/lenovo/a3/proprietary/bin/mtk_agpsd:system/bin/mtk_agpsd \
+ vendor/lenovo/a3/proprietary/xbin/mnld:system/xbin/mnld \
+ vendor/lenovo/a3/proprietary/xbin/libmnlp_mt6628:system/xbin/libmnlp_mt6628 \
  vendor/lenovo/a3/proprietary/lib/libssladp.so:system/lib/libssladp.so \
  vendor/lenovo/a3/proprietary/etc/agps_profiles_conf.xml:system/etc/agps_profiles_conf.xml \
  vendor/lenovo/a3/proprietary/etc/.tp/.ht120.mtc:system/etc/.tp/.ht120.mtc \
@@ -133,4 +129,4 @@ PRODUCT_COPY_FILES += \
  vendor/lenovo/a3/proprietary/etc/audio_effects.conf:system/etc/audio_effects.conf \
  vendor/lenovo/a3/proprietary/etc/mtk_omx_core.cfg:system/etc/mtk_omx_core.cfg
 PRODUCT_COPY_FILES += \
- vendor/lenovo/a3/proprietary/lib/libaudio.primary.default.so:system/lib/hw/audio.primary.mt6589.so
+  vendor/lenovo/a3/proprietary/lib/hw/audio_policy.mt6589.so:system/lib/hw/audio_policy.mt6589.so
