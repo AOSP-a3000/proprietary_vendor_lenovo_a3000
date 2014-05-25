@@ -48,6 +48,7 @@ PRODUCT_COPY_FILES += \
  vendor/lenovo/a3/proprietary/lib/hw/camera.default.so:system/lib/hw/camera.default.so \
  vendor/lenovo/a3/proprietary/lib/hw/sensors.default.so:system/lib/hw/sensors.default.so \
  vendor/lenovo/a3/proprietary/lib/hw/gralloc.default.so:system/lib/hw/gralloc.default.so \
+ vendor/lenovo/a3/proprietary/lib/hw/hwcomposer.mt8389.so:system/lib/hw/hwcomposer.mt8389.so \
  vendor/lenovo/a3/proprietary/lib/hw/keystore.default.so:system/lib/hw/keystore.default.so \
  vendor/lenovo/a3/proprietary/lib/libkeystore_client.so:system/lib/libkeystore_client.so \
  vendor/lenovo/a3/proprietary/lib/libm4u.so:system/lib/libm4u.so \
