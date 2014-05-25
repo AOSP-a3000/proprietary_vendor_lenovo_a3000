@@ -130,4 +130,4 @@ PRODUCT_COPY_FILES += \
  vendor/lenovo/a3/proprietary/etc/audio_effects.conf:system/etc/audio_effects.conf \
  vendor/lenovo/a3/proprietary/etc/mtk_omx_core.cfg:system/etc/mtk_omx_core.cfg
 PRODUCT_COPY_FILES += \
-  vendor/lenovo/a3/proprietary/lib/hw/audio_policy.mt6589.so:system/lib/hw/audio_policy.mt6589.so
+  vendor/lenovo/a3/proprietary/lib/hw/audio_policy.mt6589.so:system/lib/hw/audio_policy.default.so
