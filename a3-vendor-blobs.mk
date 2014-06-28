@@ -48,7 +48,6 @@ PRODUCT_COPY_FILES += \
  vendor/lenovo/a3/proprietary/lib/hw/camera.default.so:system/lib/hw/camera.default.so \
  vendor/lenovo/a3/proprietary/lib/hw/sensors.default.so:system/lib/hw/sensors.default.so \
  vendor/lenovo/a3/proprietary/lib/hw/gralloc.default.so:system/lib/hw/gralloc.default.so \
- vendor/lenovo/a3/proprietary/lib/hw/hwcomposer.mt8389.so:system/lib/hw/hwcomposer.mt8389.so \
  vendor/lenovo/a3/proprietary/lib/hw/keystore.default.so:system/lib/hw/keystore.default.so \
  vendor/lenovo/a3/proprietary/lib/libkeystore_client.so:system/lib/libkeystore_client.so \
  vendor/lenovo/a3/proprietary/lib/libm4u.so:system/lib/libm4u.so \
@@ -130,4 +129,5 @@ PRODUCT_COPY_FILES += \
  vendor/lenovo/a3/proprietary/etc/audio_effects.conf:system/etc/audio_effects.conf \
  vendor/lenovo/a3/proprietary/etc/mtk_omx_core.cfg:system/etc/mtk_omx_core.cfg
 PRODUCT_COPY_FILES += \
-  vendor/lenovo/a3/proprietary/lib/hw/audio_policy.mt6589.so:system/lib/hw/audio_policy.default.so
+  vendor/lenovo/a3/proprietary/lib/hw/audio.primary.mt6589.so:system/lib/hw/audio.primary.mt6589.so \
+  vendor/lenovo/a3/proprietary/lib/hw/audio_policy.mt6589.so:system/lib/hw/audio_policy.mt6589.so
