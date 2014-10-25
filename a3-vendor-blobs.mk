@@ -56,13 +56,33 @@ PRODUCT_COPY_FILES += \
  vendor/lenovo/a3/proprietary/lib/libdpframework_plat.so:system/lib/libdpframework_plat.so \
  vendor/lenovo/a3/proprietary/lib/libion.so:system/lib/libion.so \
  vendor/lenovo/a3/proprietary/lib/libaudiocustparam.so:system/lib/libaudiocustparam.so \
+ vendor/lenovo/a3/proprietary/lib/libimageio.so:system/lib/libimageio.so \
+ vendor/lenovo/a3/proprietary/lib/libcamdrv.so:system/lib/libcamdrv.so \
+ vendor/lenovo/a3/proprietary/lib/libbwc.so:system/lib/libbwc.so \
+ vendor/lenovo/a3/proprietary/lib/libcam.utils.so:system/lib/libcam.utils.so \
+ vendor/lenovo/a3/proprietary/lib/libcam.paramsmgr.so:system/lib/libcam.paramsmgr.so \
  vendor/lenovo/a3/proprietary/lib/libaed.so:system/lib/libaed.so \
+ vendor/lenovo/a3/proprietary/lib/libcameracustom.so:system/lib/libcameracustom.so \
+ vendor/lenovo/a3/proprietary/lib/libcam_camera_exif.so:system/lib/libcam_camera_exif.so \
+ vendor/lenovo/a3/proprietary/lib/libmatv_cust.so:system/lib/libmatv_cust.so \
+ vendor/lenovo/a3/proprietary/lib/libfeatureio.so:system/lib/libfeatureio.so \
+ vendor/lenovo/a3/proprietary/lib/libcamalgo.so:system/lib/libcamalgo.so \
  vendor/lenovo/a3/proprietary/lib/libmtk_drvb.so:system/lib/libmtk_drvb.so \
+ vendor/lenovo/a3/proprietary/lib/lib3a.so:system/lib/lib3a.so \
+ vendor/lenovo/a3/proprietary/lib/libcam.client.so:system/lib/libcam.client.so \
+ vendor/lenovo/a3/proprietary/lib/libmpo.so:system/lib/libmpo.so \
+ vendor/lenovo/a3/proprietary/lib/libmpoencoder.so:system/lib/libmpoencoder.so \
+ vendor/lenovo/a3/proprietary/lib/libcam.camshot.so:system/lib/libcam.camshot.so \
+ vendor/lenovo/a3/proprietary/lib/libcam.campipe.so:system/lib/libcam.campipe.so \
+ vendor/lenovo/a3/proprietary/lib/libcam.camadapter.so:system/lib/libcam.camadapter.so \
+ vendor/lenovo/a3/proprietary/lib/libJpgEncPipe.so:system/lib/libJpgEncPipe.so \
  vendor/lenovo/a3/proprietary/lib/libblisrc.so:system/lib/libblisrc.so \
  vendor/lenovo/a3/proprietary/lib/libspeech_enh_lib.so:system/lib/libspeech_enh_lib.so \
  vendor/lenovo/a3/proprietary/lib/libaudiosetting.so:system/lib/libaudiosetting.so \
  vendor/lenovo/a3/proprietary/lib/libaudiocompensationfilter.so:system/lib/libaudiocompensationfilter.so \
  vendor/lenovo/a3/proprietary/lib/libbessound_mtk.so:system/lib/libbessound_mtk.so \
+ vendor/lenovo/a3/proprietary/lib/libbluetoothdrv.so:system/lib/libbluetoothdrv.so \
+ vendor/lenovo/a3/proprietary/lib/libbluetooth_mtk.so:system/lib/libbluetooth_mtk.so \
  vendor/lenovo/a3/proprietary/bin/hald:system/bin/hald \
  vendor/lenovo/a3/proprietary/bin/wlan_loader:system/bin/wlan_loader \
  vendor/lenovo/a3/proprietary/bin/6620_launcher:system/bin/6620_launcher \
@@ -129,5 +149,4 @@ PRODUCT_COPY_FILES += \
  vendor/lenovo/a3/proprietary/etc/audio_effects.conf:system/etc/audio_effects.conf \
  vendor/lenovo/a3/proprietary/etc/mtk_omx_core.cfg:system/etc/mtk_omx_core.cfg
 PRODUCT_COPY_FILES += \
-  vendor/lenovo/a3/proprietary/lib/hw/audio.primary.mt6589.so:system/lib/hw/audio.primary.mt6589.so \
-  vendor/lenovo/a3/proprietary/lib/hw/audio_policy.mt6589.so:system/lib/hw/audio_policy.mt6589.so
+  vendor/lenovo/a3/proprietary/lib/hw/audio.primary.mt6589.so:system/lib/hw/audio.primary.mt6589.so
