@@ -41,6 +41,7 @@ PRODUCT_COPY_FILES += \
  vendor/lenovo/a3/proprietary/vendor/lib/libpvrANDROID_WSEGL.so:system/vendor/lib/libpvrANDROID_WSEGL.so \
  vendor/lenovo/a3/proprietary/vendor/lib/libBLPP.so:system/vendor/lib/libBLPP.so \
  vendor/lenovo/a3/proprietary/vendor/lib/hw/gralloc.mt8389.so:system/vendor/lib/hw/gralloc.mt8389.so \
+ vendor/lenovo/a3/proprietary/lib/hw/hwcomposer.mt8389.so:system/lib/hw/hwcomposer.mt8389.so \
  vendor/lenovo/a3/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
  vendor/lenovo/a3/proprietary/lib/hw/lights.default.so:system/lib/hw/lights.default.so \
  vendor/lenovo/a3/proprietary/lib/hw/power.default.so:system/lib/hw/power.default.so \
