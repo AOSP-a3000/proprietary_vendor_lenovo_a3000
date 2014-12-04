@@ -103,7 +103,10 @@ PRODUCT_COPY_FILES += \
  vendor/lenovo/a3/proprietary/lib/libfile_op.so:system/lib/libfile_op.so \
  vendor/lenovo/a3/proprietary/lib/libhwm.so:system/lib/libhwm.so \
  vendor/lenovo/a3/proprietary/lib/librilmtk.so:system/lib/librilmtk.so \
+ vendor/lenovo/a3/proprietary/lib/librilmtkmd2.so:system/lib/librilmtkmd2.so \
+ vendor/lenovo/a3/proprietary/lib/libutilrilmtk.so:system/lib/libutilrilmtk.so \
  vendor/lenovo/a3/proprietary/lib/mtk-ril.so:system/lib/mtk-ril.so \
+ vendor/lenovo/a3/proprietary/lib/mtk-rilmd2.so:system/lib/mtk-rilmd2.so \
  vendor/lenovo/a3/proprietary/bin/msensord:system/bin/msensord \
  vendor/lenovo/a3/proprietary/bin/ami304d:system/bin/ami304d \
  vendor/lenovo/a3/proprietary/bin/memsicd:system/bin/memsicd \
